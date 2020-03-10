@@ -1,0 +1,2 @@
+2020-03-10 19:23:54,057 INFO [test_pb_em_qy_aritcle.py(test_mp_login:29)] - 登录成功了=<Response [201]>
+2020-03-10 19:23:55,899 INFO [test_pb_em_qy_aritcle.py(test_chnnel_news_aritcle:128)] - 频道名称为=1

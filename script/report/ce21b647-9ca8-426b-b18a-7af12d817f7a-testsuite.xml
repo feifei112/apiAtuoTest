@@ -1,0 +1,32 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1583839303176" stop="1583839303176">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1583839303176" status="broken" stop="1583839303176">
+      <name>test_pb_em_qy_aritcle</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>test_pb_em_qy_aritcle.py:7: in &lt;module&gt;
+    from api import FactoryApi
+..\api\__init__.py:8: in &lt;module&gt;
+    basic_loger()
+..\app.py:36: in basic_loger
+    backupCount=2)
+D:\python\lib\logging\handlers.py:202: in __init__
+    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)
+D:\python\lib\logging\handlers.py:57: in __init__
+    logging.FileHandler.__init__(self, filename, mode, encoding, delay)
+D:\python\lib\logging\__init__.py:1030: in __init__
+    StreamHandler.__init__(self, self._open())
+D:\python\lib\logging\__init__.py:1059: in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+E   FileNotFoundError: [Errno 2] No such file or directory: 'F:\\软件测试学习课件\\测试6期就业班\\综合实战\\day05\\apiAtuoTest\\script\\log\\test.log20200310192143'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
